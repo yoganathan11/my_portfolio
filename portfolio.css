@@ -1,0 +1,407 @@
+
+#navigation{
+    background-color: #aa48e3;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-link:hover{
+    color: white !important; 
+    
+}
+.custom-row{
+    height: 90vh;
+    background-image: url(/project/image/background\ image.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+}
+#photo{
+    border-radius: 100%;
+    position: relative;
+    /* left: 0px; */
+    top: 5px;
+    height: 60px;
+    width: 50px;
+    
+}
+.custom-col{
+    position: absolute;
+    top: 290px;
+}
+.custom-col1{
+    position: absolute;
+    top: 500px;
+    
+}
+.custom-col1 a{
+    border-radius: 20px;
+}
+#about h3{
+    animation-name: about ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes about {
+    0%{
+        color: aqua;
+    }
+    25%{
+        color: #b636ff;
+    }
+    50%{
+        color:chocolate
+    }
+    75%{
+        color: cyan;
+    }
+    100%{
+        color: aqua;
+    }
+    
+}
+#skill h3{
+    animation-name: skill ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes skill {
+    0%{
+        color: aqua;
+    }
+    25%{
+        color: #b636ff;
+    }
+    50%{
+        color:orangered
+    }
+    75%{
+        color: cyan;
+    }
+    100%{
+        color: aqua;
+    }
+    
+}
+#education h2{
+    animation-name: edu ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes edu {
+    0%{
+        color: aqua;
+    }
+    25%{
+        color: #b636ff;
+    }
+    50%{
+        color:orange
+    }
+    75%{
+        color: cyan;
+    }
+    100%{
+        color: aqua;
+    }
+    
+}
+#project h2{
+    animation-name: pro ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes pro {
+    0%{
+        color: aqua;
+    }
+    25%{
+        color: #b636ff;
+    }
+    50%{
+        color:red
+    }
+    75%{
+        color: cyan;
+    }
+    100%{
+        color: aqua;
+    }
+    
+}
+#contact h3{
+    animation-name: con ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes con {
+    0%{
+        color: aqua;
+    }
+    25%{
+        color: #b636ff;
+    }
+    50%{
+        color:yellowgreen
+    }
+    75%{
+        color: cyan;
+    }
+    100%{
+        color: aqua;
+    }
+    
+}
+
+#education1:hover{
+    box-shadow: 5px 5px 10px 10px #b3b3b3;
+    transition-duration: 2s;
+    transform: rotate3d(8deg);
+    background-color: aliceblue;
+   
+}
+#education2:hover{
+    box-shadow: 5px 5px 10px 10px #b3b3b3;
+    transition-duration: 2s;
+    transform: rotate3d(8deg);
+    background-color: aliceblue;
+   
+}
+#education3:hover{
+    box-shadow: 5px 5px 10px 10px #b3b3b3;
+    transition-duration: 2s;
+    transform: rotate3d(8deg);
+    background-color: aliceblue;
+   
+}
+#about .custom-col2 p{
+    height: 25vh;
+    width: 70vh;
+    color: white;
+    position: relative;
+    left:150px;
+    top: 200px;
+}
+#about .custom-col2 h2{
+    position: relative;
+    left: 230px;
+    top: 150px;
+    color: #b636ff;
+}
+#image{
+    height: 40vh;
+    width: 300px;
+    display: flex;
+    position: relative;
+    /* right: -50px; */
+    top: 90px;
+    left: 300px;
+    
+}
+.progress-bar{
+    height: 5px;
+    width: 40px;
+}
+.percent{
+    position: relative;
+    top: 45px;
+    
+}
+#project1 p{
+    margin-left: 12px;
+}
+#project2 p{
+    margin-left: 12px;
+}
+#project3 p{
+    margin-left: 12px;
+}
+#about{
+    padding-top: 150px;
+    background-color: rgb(103, 212, 212);
+}
+#skill{
+    padding-top: 50px;
+    background-color: rgb(243, 210, 127);
+    
+}
+#education {
+    padding-top: 150px; 
+    background-color: rgb(193, 235, 151);
+    height: 90vh;
+}
+
+#project{
+    padding-top: 110px;
+    background-color: bisque;
+    
+    height: 120vh;
+}
+#contact{
+    padding-top: 150px;
+}
+#project1{
+    background-color: #fff;
+    height: 30vh;
+    width: 30%;
+}
+#project1:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 10px 10px #b3b3b3;
+    transition-duration: 2s;
+    transform: rotate3d(5deg);
+   
+}
+#project2{
+    background-color: #fff;
+    height: 30vh;
+    width: 30%;
+    position: relative;
+    left: 390px;
+   
+    
+}
+#project2:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 10px 10px #b3b3b3;
+    transition-duration: 2s;
+    transform: rotate3d(8deg);
+}
+#project3{
+    background-color: #fff;
+    height: 40vh;
+    width: 30%;
+    position: relative;
+    top: 50px;
+}
+#project3:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 10px 10px #b3b3b3;
+    transition-duration: 2s;
+    transform: rotate3d(8deg);
+}
+
+#submit{
+    background-color: #b636ff;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    height: 50px;
+    width: 380px;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+#submit:hover{
+    background-color: #c375ef;
+}
+#details1{
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+#details2{
+    position: relative;
+    left: 750px;
+    top: -300px;
+}
+#details2 h2{
+    opacity: 0.7;
+}
+#details2 p{
+    opacity: 0.5;
+}
+@media only screen and (min-width:400px) and (max-width:700px) {
+    #navigation{
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .custom-col{
+        position: relative;
+        text-align: center;
+        top: 250px;
+    }
+    #about .custom-col2 p{
+        height: 25vh;
+        width: 70vh;
+        position: relative;
+        left:15px;
+        top: 100px;
+    }
+    #image{
+        height: 40vh;
+        width: 300px;
+        display: flex;
+        position: relative;
+        top: 50px;
+        left: 150px;
+        
+    }
+    #project1{
+        
+        background-color: #fff;
+        height: 30vh;
+        width: 50%;
+    }
+    #project2{
+        
+        background-color: #fff;
+        height: 30vh;
+        width: 40%;
+        position: relative;
+        left: 100px;
+        
+    }
+    #project3{
+        
+        background-color: #fff;
+        height: 60vh;
+        width: 50%;
+    }
+    #details1{
+        position: relative;
+        top: 80px;
+        left: 0px;
+    }
+    #submit{
+        border: 0px solid black;
+        background-color: #b636ff;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        height: 50px;
+        width: 300px;
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    #details2{
+        position: relative;
+        right: -370px;
+        top: -250px;
+    }
+
+
+    
+}
+/* @media only screen and (min-width:0px) and (max-width:399px) {
+    #navigation{
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .custom-col{
+        position: relative;
+        text-align: center;
+        top: 250px;
+    }
+} */
+
+
+
